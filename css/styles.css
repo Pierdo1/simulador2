@@ -30,7 +30,7 @@ header {
 }
   
 h1 {
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -46,7 +46,7 @@ h1 {
 
 #boton-carrito {
     border: none;
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     font-size: 40px;
     background-color: grey;
     border-radius: 50%;
@@ -57,7 +57,7 @@ h1 {
 #boton-carrito:hover {
     cursor: pointer;
     color: rgb(0, 0, 0);
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(0, 255, 0);
 }
 
 #boton-carrito:focus {
@@ -86,7 +86,7 @@ p {
 select {
     display: inline;
     text-align: center;
-    border: 1px solid lightskyblue;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .modal-contenedor {
@@ -112,7 +112,7 @@ select {
 .modal-carrito {
     position: relative;
     background-color: grey;
-    border: 2px solid rgb(0, 174, 255);
+    border: 2px solid rgb(0, 255, 0);
     min-width: 500px;
     padding: 20px;
     margin-top: -100%;
@@ -124,7 +124,7 @@ select {
 }
   
 .modal-carrito h3 {
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     padding-bottom: 5px;
     font-size: 3em;
     font-weight: bold;
@@ -135,7 +135,7 @@ select {
     top: 15px;
     right: 15px;
     font-size: 30px;
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     border: none;
     background-color: grey;
 }
@@ -155,7 +155,7 @@ select {
 }
 
 .card .card-image .card-title {
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     position: unset;
     font-size: 2em;
 }
@@ -172,12 +172,12 @@ select {
 }
 
 .productoEnCarrito:hover {
-    border-left: 5px solid rgb(0, 174, 255);
+    border-left: 5px solid rgb(0, 255, 0);
 }
   
 .boton-eliminar {
     background-color: grey;
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     border: none;
     font-size: 25px;
 }
@@ -220,7 +220,7 @@ select {
 
 #checkout {
     border: none;
-    color: rgb(0, 174, 255);
+    color: rgb(0, 255, 0);
     font-size: 10px;
     background-color: grey;
     border-radius: 50%;
@@ -231,7 +231,7 @@ select {
 #checkout:hover {
     cursor: pointer;
     color: rgb(0, 0, 0);
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(0, 255, 0);
 }
 
 #checkout:focus {
@@ -259,3 +259,23 @@ p2 {
     font-size: 1.5em;
     font-weight: 500;
 }
+
+.swal-modal {
+    border: 3px solid grey;
+  }
+  
+  .swal-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+  }
+
+  .swal-text {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .swal-icon--success__line, .swal-icon--success__line {
+    background-color: rgb(0, 255, 0);
+  }
+  

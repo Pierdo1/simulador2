@@ -54,7 +54,12 @@ function mostrarProductos(array){
     
     let btnAgregar = document.getElementById(`boton${el.id}`)
     btnAgregar.addEventListener('click',()=>{
-        agregarAlCarrito(el.id);
+        swal({
+            title: 'Agregado Correctamente!',
+            icon: 'success',
+            button: 'Cerrar'
+        })
+            agregarAlCarrito(el.id);
     })
   })
 }

@@ -22,8 +22,13 @@ btnSubmit.addEventListener("mousemove", ()=> {
 
 document.addEventListener("submit", (e)=> {
     e.preventDefault()
-    guardarDatosDeUsr()
-    alert("Formulario enviado.")
+        guardarDatosDeUsr()
+            swal({
+                title: 'Perfecto!',
+                text: 'Los datos han sido enviados exitosamente',
+                icon: 'success',
+                button: 'Cerrar'
+            })
 })
 
 function guardarDatosDeUsr() {
